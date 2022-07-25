@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>day-1(AWT)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            height: 20vh;
+            width: 20%;
+            text-align: center;
+            background-color: aquamarine;
+            margin-top: 50px;
+        }
+
+        .par p {
+            padding-top: 25px;
+            text-align: center;
+            margin-top: 5px;
+            width: 100%;
+            height: 10vh;
+            background-color: aqua;
+        }
+
+        .par p a {
+            font-size: 50px;
+            text-decoration: none;
+            color: red;
+        }
+
+        .list {
+            text-decoration: none;
+            text-align: center;
+            background-color: aquamarine;
+            margin-top: 5px;
+        }
+
+        table {
+            margin-left: 25%;
+            border-collapse: collapse;
+            background-color: lightblue;
+            width: 50%;
+            margin-top: 50px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+            text-align: center;
+        }
+
+        form {
+            width: 40%;
+            height: 50vh;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gray;
+            padding: 50px;
+            border-radius: 5px;
+            background-color: lightblue;
+            margin-top: 40px;
+            margin-bottom: 2%;
+        }
+
+        form #gender {
+            margin-top: 2%;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            width: 100%;
+        }
+
+        form input {
+            width: 100%;
+            padding: 6px;
+            border-radius: 4px;
+            margin: 10px;
+        }
+        form button{
+            color: white;
+            font-size: large;
+            background-color: lightcoral;
+            height: 50px;
+            width: 100px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>I am h1 Header</h1>
+        <h2>I am h2 Header</h2>
+        <h3>I am h3 Header</h3>
+        <h4>I am h4 Header</h4>
+        <h5>I am h5 Header</h5>
+        <h6>I am h6 Header</h6>
+    </div>
+
+    <div class="list">
+        <h3>This is List</h3>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+            <li>Blog</li>
+            <li>Cart</li>
+        </ul>
+    </div>
+
+    <div class="par">
+        <p>Link For Youtube<br><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube</a></p>
+    </div>
+
+    <table>
+        <tr>
+            <th rowspan="3">Sr.No</th>
+            <th colspan="4">Collage Name</th>
+        </tr>
+        <tr>
+            <td colspan="2">S - A</td>
+            <td colspan="2">S -B </td>
+        </tr>
+        <tr>
+            <td>x</td>
+            <td>y</td>
+            <td>x</td>
+            <td>y</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <form>
+
+        <label for="fname">First name</label>
+        <input type="text" placeholder="First name">
+        <label for="lname">Last name</label>
+        <input type="text" placeholder="Last name">
+        <label for="email">Email</label>
+        <input type="email" name="mail" id="" placeholder="Enter your mail">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="">
+        <div id="gender">
+            <label for="male">Male</label>
+            <input type="radio">
+            <label for="male">Female</label>
+            <input type="radio">
+            <label for="male">Other</label>
+            <input type="radio">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

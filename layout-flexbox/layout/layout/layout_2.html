@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Start */
+        .j1 {
+            background-color: red;
+            height: 13vh;
+            width: 100%;
+            display: flex;
+        }
+
+        #logo {
+            background-color: #fff;
+            width: 15%;
+            padding-top: 10px;
+            padding-left: 15px;
+        }
+
+        #logo li {
+            list-style: none;
+        }
+
+        #nav li a:hover{
+            border: 10px solid rgb(180, 152, 152);
+            text-shadow:10px 10px 10px solid red;
+           
+            
+        }
+        #nav {
+            background-color: #fff;
+            width: 85%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        #nav li {
+            list-style: none;
+            padding-right: 60px;
+            position: relative;
+        }
+
+        #nav li a {
+            
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        /* Navigation End */
+        /*Blocks Start*/
+        .j2 {
+            background-color: #fff;
+            height: 85vh;
+            width: 100%;
+            display: flex;
+        }
+
+        #Block-1 {
+            background-image: url("https://source.unsplash.com/random/500x700/?wallpaper,couple");
+            width: 33.33%;
+            height: 85vh;
+            margin-right: 5px;
+        }
+
+        #Block-2 {
+            background-image: url("https://source.unsplash.com/random/500x700/?wallpaper,monkey");
+            width: 33.33%;
+            height: 85vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+        }
+
+        #Block-2 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #Block-3 {
+            background-image: url("https://source.unsplash.com/random/500x700/?wallpaper,landscape");
+            width: 33.33%;
+            height: 85vh;
+            margin-right: 5px;
+        }
+
+        /*Bloacks End*/
+
+        /*Footer Start*/
+
+        .j3 {
+            background-color: aqua;
+            width: 100%;
+            height: 20vh;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            display: flex;
+        }
+
+        .icon {
+            background-color: #fff;
+            width: 10%;
+            padding-top: 10px;
+            padding-left: 15px;
+            display: flex;
+        }
+
+        .icon li {
+            list-style: none;
+        }
+        #contact{
+            background-color: #fff;
+            width: 90%;
+            display: flex;
+            justify-content: left;
+        }
+        #contact li{
+            list-style: none;
+            padding: 30px;
+        }
+        #contact a{
+            text-decoration: none;
+            color: black;
+        }
+        /*Footer End*/
+    </style>
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <div class="j1">
+            <div id="logo">
+                <li><a href="#"><img src="Images/logo2.jpg" alt="" width="100px" height="70px"></a></li>
+            </div>
+            <div id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+            </div>
+        </div>
+        <div class="j2">
+            <div id="Block-1"></div>
+            <div id="Block-2">
+                <br>
+                
+            </div>
+            <div id="Block-3"></div>
+        </div>
+        <div class="j3">
+            <div class="icon">
+                <li><a href="#"><img src="Images/logo2.jpg" alt="" width="100px" height="70px"></a></li>
+            </div>    
+                <div id="contact">
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">Linkdin <i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">Facebook <i class="fa-brands fa-facebook-square"></i></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">Mail <i class="fa-solid fa-envelope"></i></a></li>
+
+                </div>
+        </div>
+    </body>
+
+</html>
